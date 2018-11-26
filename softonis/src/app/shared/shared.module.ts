@@ -4,7 +4,7 @@ import { CommonModule } from '@angular/common';
 import { DemoVideoComponent } from './demo-video/demo-video.component';
 import { PricingCardsComponent } from './pricing-cards/pricing-cards.component';
 import { TeamCardsComponent } from './team-cards/team-cards.component';
-import { FAQComponent } from './faq/faq.component';
+import { FAQComponent } from './FAQ/faq.component';
 
 
 @NgModule({
