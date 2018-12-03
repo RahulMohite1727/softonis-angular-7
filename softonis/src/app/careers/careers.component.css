@@ -1,0 +1,60 @@
+.spac{
+    padding: 0 1px;
+}
+.hea{
+    font-weight: 300;
+    font-style: normal;
+    font-family: sans-serif;
+    font-size: 50px;
+    line-height: 1.1;
+    letter-spacing: 0px;
+}
+.normal{
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Work Sans', sans-serif;
+    color: #86899c;
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 0px;
+}
+.cola{color: #41405a;}
+.car{
+    
+        font-weight: 400;
+        font-style: normal;
+        font-family: 'Work Sans', sans-serif;
+        color: #888888;
+        font-size: 15px;
+        line-height: 1.4;
+        letter-spacing: 0px;
+    
+}
+.carback{
+    margin-top: 20px;
+    background-color: rgba(239,240,247,0.8);
+    transition-duration: 0.4s;
+    transition-property: background-color, border-color;
+}
+.carhead{
+    font-weight: 500;
+    font-style: normal;
+    font-family: 'Work Sans', sans-serif;
+    color: #41405a;
+    font-size: 20px;
+    line-height: 2.1;
+    letter-spacing: 0px;
+}
+.sub{
+  color: #888888;
+}
+.para{
+    color: #41405a;
+}
+.h3{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
