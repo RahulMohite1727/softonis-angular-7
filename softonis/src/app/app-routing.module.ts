@@ -1,3 +1,5 @@
+import { CareersComponent } from './careers/careers.component';
+
 import { NewsComponent } from './about/news/news.component';
 
 import { AboutComponent } from './about/about.component';
@@ -7,7 +9,8 @@ import { Routes, RouterModule } from '@angular/router';
 
 const routes: Routes = [
   {path : 'about', component : AboutComponent},
-{  path : 'news', component : NewsComponent},
+ {path : 'news', component : NewsComponent},
+ {path : 'carrers' , component: CareersComponent },
   
 ];
 
