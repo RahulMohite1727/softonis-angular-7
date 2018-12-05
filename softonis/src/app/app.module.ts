@@ -1,4 +1,4 @@
-
+import {BrowserModule} from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -20,7 +20,7 @@ import { TeamModule } from './team/team.module';
     AppComponent
   ],
   imports: [
-    
+    BrowserModule,
     AppRoutingModule,
     NavbarModule,
     FooterModule,
@@ -32,9 +32,8 @@ import { TeamModule } from './team/team.module';
     PricingModule,
     TeamModule,
     HomeModule,
-    FeaturesModule
-    
-  
+    FeaturesModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
