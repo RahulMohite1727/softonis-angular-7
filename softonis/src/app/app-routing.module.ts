@@ -6,6 +6,7 @@ import { NewsComponent } from './about/news/news.component';
 import { AboutComponent } from './about/about.component';
 import { NgModule, Component } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { PricingComponent } from './pricing/pricing.component';
 
 
 const routes: Routes = [
