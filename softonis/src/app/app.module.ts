@@ -14,6 +14,7 @@ import { CareersModule } from './careers/careers.module';
 import { PricingModule } from './pricing/pricing.module';
 import { ContactModule } from './contact/contact.module';
 import { TeamModule } from './team/team.module';
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { TeamModule } from './team/team.module';
     PricingModule,
     TeamModule,
     HomeModule,
-    FeaturesModule
+    FeaturesModule,
+    NgbModule
     
   
   ],
