@@ -1,0 +1,33 @@
+.btn2{
+    margin-left:50px;
+    box-align: center;
+    color:blue;
+    background-color: white; 
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    
+    /* border-color: #756aee; */
+    min-width: 180px;
+    padding: 18.5px;
+    transition: all .3s;
+    line-height: 1;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+ .btn2:hover {
+  background-color:transparent;
+  color:white;
+  border-color: white;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 5px;
+  
+}
