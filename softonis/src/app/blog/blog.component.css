@@ -1,0 +1,42 @@
+.line{
+    margin: 0;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    display: inline-block;
+    width: 100%;
+    
+}
+.marg{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top-width: 2px;
+    border-top-style: solid;
+    border-top-color: #756aee;
+}
+.image{
+    width: 100%;
+    max-width: 100%;
+    vertical-align: middle;
+}
+.dis{
+    position: relative;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    transition: .3s;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+.para{
+    font-weight: 500;
+    font-style: normal;
+    font-family: 'Work Sans', sans-serif;
+    color: #41405a;
+    font-size: 20px;
+    line-height: 1;
+    letter-spacing: 0px;
+}

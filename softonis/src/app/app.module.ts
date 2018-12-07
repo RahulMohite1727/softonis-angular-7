@@ -21,7 +21,7 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
     AppComponent
   ],
   imports: [
-    BrowserModule, 
+    BrowserModule,
     AppRoutingModule,
     NavbarModule,
     FooterModule,
