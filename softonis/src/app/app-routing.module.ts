@@ -11,6 +11,10 @@ import { AboutComponent } from './about/about.component';
 import { NgModule, Component } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { PricingComponent } from './pricing/pricing.component';
+import { ContactComponent } from './contact/contact.component';
+import { TeamComponent } from './team/team.component';
+import { FeaturesComponent } from './features/features.component';
+import { ServicesComponent } from './services/services.component';
 
 
 
@@ -25,6 +29,11 @@ const routes: Routes = [
  {path : 'news', component : NewsComponent},
  {path : 'careers' , component: CareersComponent },
  {path : 'blog' , component: BlogComponent },
+ {path : 'contact' , component: ContactComponent },
+ {path : 'prices' , component: PricingComponent },
+ {path : 'team' , component: TeamComponent },
+ {path : 'features' , component: FeaturesComponent },
+ {path : 'services' , component: ServicesComponent },
 ];
 
 @NgModule({
