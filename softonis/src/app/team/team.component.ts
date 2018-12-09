@@ -7,6 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TeamComponent implements OnInit {
 
+  teamTtl = `Our team maintains an effective mix of 
+  development experience and seasoned leadership.`
+  teamsubttl = 'Connect with your clients in a different way'
+
   constructor() { }
 
   ngOnInit() {

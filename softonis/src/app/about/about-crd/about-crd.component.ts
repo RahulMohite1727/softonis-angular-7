@@ -1,4 +1,4 @@
-import { Component, OnInit ,Input} from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-about-crd',
@@ -6,14 +6,6 @@ import { Component, OnInit ,Input} from '@angular/core';
   styleUrls: ['./about-crd.component.css']
 })
 export class AboutCrdComponent implements OnInit {
-
-  @Input()
-
-  imgsrc:string
-   @Input()
-  header:string
-   @Input()
-  msg:string
 
   constructor() { }
 
