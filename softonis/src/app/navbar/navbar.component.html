@@ -1,62 +1,38 @@
-
-<!-- 
-<nav class="navbar navbar-expand-lg navbar-light bg-light"> -->
-    <nav class="navbar navbar-expand-lg navbar-dark " style="background-color:#36306e;">
-    <a class="navbar-brand" href="#"><img src="assets\softonis-logo.png"><span class="bold" style="padding-left:10px;">Softonis</span></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarText" style="height:130px;background-color:#36306e;margin-right: 20px;">
-      <ul class="navbar-nav mr-auto" style="margin-right:10px;" >
-        <li class="nav-item active">
-          <a  class="nav-link  mr-4"  [routerLink]="['home']">Home <span class="sr-only">(current)</span></a>
-        
+<!-- <div class="py-1 bg-default" >
+  <div class="container-fluid">
+    
+    <div class="row">
+      <div class="col-md-12"> -->
        
-        </li>
-        <li class="nav-item">
-          <a class="nav-link mr-4" href="#">Features</a>
-        </li>
-        
-
-
-
-        <li class="nav-item">
-          <a class="nav-link  mr-4" [routerLink]="['Services']">Services
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link  mr-4" [routerLink]="['About']">About
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link  mr-4" [routerLink]="['team']">Team
-          </a>
-        </li>
-
-        <li class="nav-item  mr-4">
-          <a class="nav-link" [routerLink]="['Careers']">Careers
-
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link mr-4" [routerLink]="['pricing']">Pricing</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link  mr-4" [routerLink]="['Blog']">    Blog
-
-          </a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link" [routerLink]="['contact']">Contactus
-
-          </a>
-        </li>
-
+        <nav class="navbar navbar-expand-lg navbar-light " >
+            <a class="navbar-brand" href="/"><img class="d-inline-block align-left mr-2 " src="assets/softonics logo.png" width="50" height="50" style="color: white">Softonis</a>
+          
+          <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button> -->
+          <!-- <div class="collapse navbar-collapse" id="navbarNavAltMarkup"> -->
+            <div class="navbar-nav">
+              <a class="nav-item nav-link active mr-4" href="#"  [routerLink]="['home']">Home </a>
+              <a class="nav-item nav-link mr-4" href="#"[routerLink]="['features']">Features</a>
+              <a class="nav-item nav-link mr-4" href="#"[routerLink]="['services']">Services</a>
   
-
-      </ul>
+  
+              <div class="dropdown">
+                <a class="nav-item nav-link dropbtn mr-4" [routerLink]="['about']">About</a>
+                <div class="dropdown-content">
+                  <a href="#">Projects</a>
+                  <a href="#" [routerLink]="['news']">News</a>
+                  <a href="#">Events</a>
+                </div>
+              </div>
+  
+              <a class="nav-item nav-link mr-4 " href="#"[routerLink]="['team']">Team</a>
+              <a class="nav-item nav-link mr-4" href="#" [routerLink]="['careers']">Careers</a>
+              <a class="nav-item nav-link mr-4" href="#"[routerLink]="['prices']">Prices</a>
+              <a class="nav-item nav-link mr-4" href="#"[routerLink]="['blog']">Blog</a>
+              <a class="nav-item nav-link" href="#" [routerLink]="['contact']">Contact Us</a>
+  
+      </div>
       
-    </div>
-  </nav>
+    
+   
