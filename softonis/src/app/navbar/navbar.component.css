@@ -1,5 +1,27 @@
 
-a .nav-link:hover{
-    color:red
 
+li a:hover{
+
+    text-decoration-color: white;
+
+}
+.navbar{
+    margin: auto;
+}
+
+.nav-link{
+    margin-left:20px;
+    color: white;
+    font-size: 17px;
+}
+
+.navbar-brand
+{
+    text-align: center;
+    margin-left: 50px;
+}
+
+nav{
+
+    margin:auto;
 }

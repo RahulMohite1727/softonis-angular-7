@@ -1,0 +1,30 @@
+.nav-item .nav-link{
+
+    color: white;
+    text-decoration-color:none;
+    
+}
+
+.nav-item{
+
+    margin-left: 10px;
+    margin-bottom: 40px;
+
+}
+
+.nav-item  a:hover{
+
+    text-decoration-color:red;
+    
+}
+.navbar-brand{
+
+    text-align: center;
+    margin-left: 45%;
+    padding-top: 80px;
+    color:white;
+}
+
+nav{
+    margin-left: 240px;
+}
