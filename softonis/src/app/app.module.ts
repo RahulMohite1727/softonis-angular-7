@@ -1,8 +1,9 @@
-
+// import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { AboutModule } from './about/about.module';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { BlogModule } from './blog/blog.module';
+import { BrowserModule } from '@angular/platform-browser';
 import { CareersModule } from './careers/careers.module';
 import { ContactModule } from './contact/contact.module';
 import { FeaturesModule } from './features/features.module';
@@ -15,12 +16,13 @@ import { ServicesModule } from './services/services.module';
 import { TeamModule } from './team/team.module';
 
 
+
 @NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
-    
+    BrowserModule,
     AppRoutingModule,
     NavbarModule,
     FooterModule,
@@ -32,7 +34,8 @@ import { TeamModule } from './team/team.module';
     PricingModule,
     TeamModule,
     HomeModule,
-    FeaturesModule
+    FeaturesModule,
+    // NgbModule
     
   
   ],
