@@ -1,0 +1,7 @@
+div img{
+    opacity: .5;
+}
+
+div :hover{
+   opacity: 1;
+}

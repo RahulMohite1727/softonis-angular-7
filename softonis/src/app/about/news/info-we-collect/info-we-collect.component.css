@@ -1,0 +1,32 @@
+.moto-text_system_10 {
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Work Sans', sans-serif;
+    color: #888888;
+    font-size: 20px;
+    line-height: 1.4;
+    letter-spacing: 0px;
+    text-align: center;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.moto-text_system_9 {
+    font-weight: 500;
+    font-style: normal;
+    font-family: 'Work Sans', sans-serif;
+    color: #41405a;
+    font-size: 30px;
+    line-height: 1.1;
+    letter-spacing: 0px;
+}

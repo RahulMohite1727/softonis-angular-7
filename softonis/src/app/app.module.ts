@@ -38,7 +38,7 @@ import { TeamModule } from './team/team.module';
     PricingModule,
     TeamModule,
     HomeModule,
-    FeaturesModule,
+    //FeaturesModule,
     ContactModule,
   
 

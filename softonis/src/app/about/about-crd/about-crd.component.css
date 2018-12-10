@@ -1,0 +1,163 @@
+.moto-text_system_6 {
+    font-weight: 50;
+    font-style: normal;
+    font-family: 'Work Sans', sans-serif;
+    color: #2c2727;
+    font-size: 60px;
+    text-align: center;
+    line-height: 1.1;
+    letter-spacing: 0px;
+    text-align: center;
+}
+.moto-text_system_7 {
+    font-weight: 100;
+    font-style: normal;
+    font-family: 'Work Sans', sans-serif;
+    color: #41405a;
+    font-size: 45px;
+    line-height: 1.2;
+    letter-spacing: 0px;
+}
+.moto-text_normal {
+    font-weight: 100;
+    font-style: normal;
+    font-family: 'Work Sans', sans-serif;
+    color: #86899c;
+    font-size: 25px;
+    line-height: 0.5;
+    letter-spacing: 0px;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.moto-spacing-right-auto {
+    padding-right: initial;
+}
+.moto-spacing-left-auto {
+    padding-left: initial;
+}
+.moto-spacing-bottom-small {
+    padding-bottom: 20px;
+}
+.moto-spacing-top-small {
+    padding-top: 20px;
+}
+.moto-widget-divider {
+    font-size: 0;
+}
+.moto-align-center {
+    text-align: center;
+}
+.moto-widget {
+    position: relative;
+}   
+.moto-widget-divider.moto-preset-default .moto-widget-divider-line {
+    border-top-width: 4px;
+    border-top-style: solid;
+    border-top-color: #756aee;
+}
+.moto-widget-divider .moto-widget-divider-line {
+    margin: 0;
+    display: inline-block;
+}
+hr {
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    line-height: 1.42857143;
+}
+h1 {
+    margin: 0em 0;
+}
+
+.moto-spacing-right-auto {
+    padding-right: initial;
+}
+.moto-spacing-left-auto {
+    padding-left: initial;
+}
+.moto-spacing-bottom-auto {
+    padding-bottom: initial;
+}
+.moto-spacing-top-auto {
+    padding-top: initial;
+}
+.moto-widget {
+    position: relative;
+}
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.col-sm-12, .col-sm-auto {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+}
+.moto-cell {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.moto-widget {
+    position: relative;
+}
+
+
+.container{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.moto-spacing-right-auto {
+    padding-right: initial;
+}
+.moto-spacing-left-auto {
+    padding-left: initial;
+}
+.moto-spacing-bottom-medium {
+    padding-bottom: 55px;
+}
+.moto-spacing-top-medium {
+    padding-top: 55px;
+}
+.moto-widget {
+    position: relative;
+}
+.moto-widget {
+    position: relative;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+.row-fixed .container-fluid {
+    max-width: 1200px;
+}
+.row-fixed .container-fluid {
+    margin-left: auto;
+    margin-right: auto;
+}
+.container-fluid, .moto-cell {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.row {
+    margin-left: -10px;
+    margin-right: -10px;
+}
