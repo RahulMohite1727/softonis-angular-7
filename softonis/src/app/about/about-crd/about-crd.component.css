@@ -1,121 +1,52 @@
-.container-fluid {
-    max-width: 1200px;
-}
-
-.container-fluid {
-    padding-right: 15px;
-    padding-left: 15px;
-    
-}	
-
-.container-fluid, .moto-cell {
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-.div {
-    display: block;
-    
-}
-
-
 .moto-text_system_6 {
-    font-weight: 200;
-    font-style: inherit;
-    font-family: 'Work Sans', sans-serif;
-    font-size: 60px;
-    line-height: 1.1;
-    letter-spacing: 1.1px;
-	    color: #41405a;
-
-}
-h1 {
-    margin: 0em 0;
-}
-.moto-text_system{
     font-weight: 50;
-    font-style: inherit;
-    font-family: 'Work Sans', sans-serif;
-    font-size: 10px;
-    line-height: 1.1;
-    letter-spacing: 1.1px;
-	    color: #41405a;
-
-}
-h2{
-    font-size: 5px;
-
-}
-
-.moto-text_normal {
-    font-weight: 400;
     font-style: normal;
-    font-family: 'Work Sans';
-    color: #86899c;
-    font-size: 30px;
-    line-height: 1.5;
+    font-family: 'Work Sans', sans-serif;
+    color: #2c2727;
+    font-size: 60px;
+    text-align: center;
+    line-height: 1.1;
     letter-spacing: 0px;
+    text-align: center;
 }
 .moto-text_system_7 {
-    font-weight: 200;
+    font-weight: 100;
     font-style: normal;
     font-family: 'Work Sans', sans-serif;
     color: #41405a;
-    font-size: 50px;
-    line-height: 2.2;
-    letter-spacing: 1.1px;
+    font-size: 45px;
+    line-height: 1.2;
+    letter-spacing: 0px;
 }
-.moto-widget-divider.moto-preset-default .moto-widget-divider-line {
-    border-top-width: 2px;
-    border-top-style: solid;
-    border-top-color: #756aee;
+.moto-text_normal {
+    font-weight: 100;
+    font-style: normal;
+    font-family: 'Work Sans', sans-serif;
+    color: #86899c;
+    font-size: 25px;
+    line-height: 0.5;
+    letter-spacing: 0px;
 }
-
-
-.row {
-    
-    display: flex;
-    padding-left: 10%;
-    padding-right: 10%;
-    margin-right: -15px;
-    margin-left: -15px;
-
-}
-.moto-cell {
-    padding-left: 10px;
-    padding-right: 10px;
-}
-.moto-widget {
-    position: relative;
-}
-.col-md-4 {
-    flex: 0 0 33.3333333333%;
-    max-width: 33.3333333333%;
-    width: 100%;
-    min-height: 1px;
-    height: 10%;
-}
-.moto{
-    height: 10%;
-    width: 10%;
-    text-align: center;
-    padding-left: 5%;
-    padding-right: 5%;
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 .moto-spacing-right-auto {
     padding-right: initial;
 }
-
 .moto-spacing-left-auto {
     padding-left: initial;
 }
 .moto-spacing-bottom-small {
     padding-bottom: 20px;
 }
-.moto-spacing-top-medium {
-    padding-top: 55px;
+.moto-spacing-top-small {
+    padding-top: 20px;
 }
-.moto-widget-image {
+.moto-widget-divider {
     font-size: 0;
 }
 .moto-align-center {
@@ -123,33 +54,34 @@ h2{
 }
 .moto-widget {
     position: relative;
+}   
+.moto-widget-divider.moto-preset-default .moto-widget-divider-line {
+    border-top-width: 4px;
+    border-top-style: solid;
+    border-top-color: #756aee;
 }
-.moto-widget-image .moto-widget-image-link {
-    position: relative;
-    overflow: hidden;
-    transition: .3s;
-}
-.moto-widget-image .moto-widget-image-link {
+.moto-widget-divider .moto-widget-divider-line {
+    margin: 0;
     display: inline-block;
 }
-.moto-widget-image .moto-widget-image-picture {
-    width: 200%;
-    max-width: 200%;
+hr {
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    line-height: 1.42857143;
 }
-img {
-    vertical-align: middle;
+h1 {
+    margin: 0em 0;
 }
-img {
-    border: 0;
+
+.moto-spacing-right-auto {
+    padding-right: initial;
 }
-.moto-widget-image {
-    font-size: -web-xxx-large;
-}
-.moto-spacing-right-small {
-    padding-right: 20px;
-}
-.moto-spacing-left-small {
-    padding-left: 20px;
+.moto-spacing-left-auto {
+    padding-left: initial;
 }
 .moto-spacing-bottom-auto {
     padding-bottom: initial;
@@ -160,57 +92,72 @@ img {
 .moto-widget {
     position: relative;
 }
-.moto-text_system_9 {
-    font-weight: 700;
-    font-style: normal;
-    font-family: 'Work Sans', sans-serif;
-    color: #41405a;
-    font-size: 25px;
-    line-height: 2.1;
-    letter-spacing: 0px;
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.col-sm-12, .col-sm-auto {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+}
+.moto-cell {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.moto-widget {
+    position: relative;
 }
 
-h3 {
-    display: block;
-    font-size: 1.17em;
-    font-weight: bold;
-}
-.moto-widget-text a {
-    transition: .3s;
-}
-a:-webkit-any-link {
-    cursor: pointer;
-}
 
-.moto-widget-text-content:after {
-    content: "";
-    display: table;
-    clear: both;
+.container{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.moto-spacing-right-auto {
+    padding-right: initial;
+}
+.moto-spacing-left-auto {
+    padding-left: initial;
+}
+.moto-spacing-bottom-medium {
+    padding-bottom: 55px;
+}
+.moto-spacing-top-medium {
+    padding-top: 55px;
+}
+.moto-widget {
+    position: relative;
+}
+.moto-widget {
+    position: relative;
+}
+* {
+    margin: 0;
+    padding: 0;
 }
 *, :after, :before {
     box-sizing: inherit;
 }
-.moto-text_system_9 a {
-    color: #41405a;
-    text-decoration: none;
-    font-weight: 500;
-    font-style: normal;
+.row-fixed .container-fluid {
+    max-width: 1200px;
 }
-a {
-    background-color: transparent;
+.row-fixed .container-fluid {
+    margin-left: auto;
+    margin-right: auto;
 }
-.moto-text_system_10 {
-    font-weight: 400;
-    font-style: normal;
-    font-family: 'Work Sans', sans-serif;
-    color: #888888;
-    font-size: 20px;
-    line-height: 1.4;
-    letter-spacing: 0px;
+.container-fluid, .moto-cell {
+    padding-left: 10px;
+    padding-right: 10px;
 }
-
-
-
-
-
-
+.row {
+    margin-left: -10px;
+    margin-right: -10px;
+}

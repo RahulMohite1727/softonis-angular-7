@@ -1,4 +1,4 @@
-// import { NavBarComponent } from './shared/layout/nav-bar/nav-bar.component';
+//import { NavBarComponent } from './shared/layout/nav-bar/nav-bar.component';
 import { GeneralInfoComponent } from './about/news/general-info/general-info.component';
 
 
