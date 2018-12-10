@@ -1,0 +1,24 @@
+
+
+
+<div class="container">
+    <div class="card-deck mb-3 text-center">
+      <div class="card mb-4 shadow-sm">
+       
+        <div class="card-header" style="background-color:#756aee;color: white;">
+          <h4 class="my-0 font-weight-normal">{{type}}</h4>
+        </div>
+  
+        <div class="card-body">
+          <h1 class="card-title pricing-card-title" style="color:#756aee;font-size:70px;font-weight: lighter">{{cost}} </h1>
+          <ul class="list-unstyled mt-3 mb-4" >
+            <li *ngFor="let inf of info" style="text-align:center;font-family: 'Work Sans', sans-serif; color: #86899c;font-size: 18px;line-height: 1.5;
+            letter-spacing: 0px;font-weight: 400;font-style: normal;line-height: 2em;">{{inf}}</li>
+          </ul>
+          
+          <button type="button" style="background-color:#756aee;color:white"  class="btn btn-lg btn-block btn-outline-primary"   (click)="plsSignUp()">CONTACT US</button>
+        </div>
+  
+      </div>
+    </div>
+  </div>
