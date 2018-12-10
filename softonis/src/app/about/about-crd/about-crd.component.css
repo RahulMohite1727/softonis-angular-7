@@ -15,6 +15,7 @@
 
 .div {
     display: block;
+    
 }
 
 
@@ -78,6 +79,7 @@ h2{
     padding-right: 10%;
     margin-right: -15px;
     margin-left: -15px;
+
 }
 .moto-cell {
     padding-left: 10px;
@@ -87,15 +89,16 @@ h2{
     position: relative;
 }
 .col-md-4 {
-    -webkit-box-flex: 0;
     flex: 0 0 33.3333333333%;
     max-width: 33.3333333333%;
     width: 100%;
     min-height: 1px;
+    height: 10%;
 }
-.card{
+.moto{
+    height: 10%;
+    width: 10%;
     text-align: center;
-    padding-block-end: 0%;
     padding-left: 5%;
     padding-right: 5%;
 }

@@ -1,4 +1,4 @@
-import { NavBarComponent } from './shared/layout/nav-bar/nav-bar.component';
+// import { NavBarComponent } from './shared/layout/nav-bar/nav-bar.component';
 import { GeneralInfoComponent } from './about/news/general-info/general-info.component';
 
 
@@ -17,7 +17,6 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { ProjectsComponent } from './about/projects/projects.component';
 import { EventsComponent } from './about/events/events.component';
-import { NavbarComponent } from './navbar/navbar.component';
 
 import { PricingComponent } from './pricing/pricing.component';
 import { ContactComponent } from './contact/contact.component';
