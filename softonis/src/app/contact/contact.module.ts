@@ -1,18 +1,23 @@
 import { CommonModule } from '@angular/common';
 import { ContactComponent } from './contact.component';
-import { ContactCrdComponent } from './contact-crd/contact-crd.component';
-import { ContactFormComponent } from './contact-form/contact-form.component';
-import { ContactInfoComponent } from './contact-info/contact-info.component';
-import { ContactMapComponent } from './contact-map/contact-map.component';
+import { ContactformComponent } from './contactform/contactform.component';
+import { ContactinfoComponent } from './contactinfo/contactinfo.component';
+import { FormsModule }   from '@angular/forms';
+import { MapComponent } from './map/map.component';
 import { NgModule } from '@angular/core';
 
 
 
 
+
 @NgModule({
-  declarations: [ContactComponent, ContactInfoComponent, ContactCrdComponent, ContactMapComponent, ContactFormComponent],
+  declarations: [ContactComponent, ContactinfoComponent, MapComponent, ContactformComponent],
   imports: [
-    CommonModule
-  ]
+    CommonModule,
+    FormsModule
+
+
+  ],
+  exports:[ContactComponent]
 })
 export class ContactModule { }

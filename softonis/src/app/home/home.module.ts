@@ -1,3 +1,6 @@
+import { NavbarModule } from './../navbar/navbar.module';
+import { FooterModule } from './../footer/footer.module';
+//import { FooterComponent } from './../shared/layout/footer/footer.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HomeComponent } from './home.component';

@@ -1,0 +1,39 @@
+.moto-text_system_6 {
+    font-weight: 300;
+    font-style: normal;
+    font-family: 'Work Sans', sans-serif;
+    color: #ffffff;
+    font-size: 50px;
+    line-height: 1.1;
+    letter-spacing: 0px;
+}
+
+.thead{
+
+
+    font-weight: 300;
+    font-style: normal;
+    font-family: sans-serif;
+    font-family:roboto; 
+    
+    color:#41405a;
+    font-size: 45px;
+    line-height: 1.2;
+    letter-spacing: 0.2px;
+    text-align:center;
+    
+}
+
+
+
+.ptext{
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Work Sans', sans-serif;
+    color: #86899c;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 0px;
+    text-align: center;
+
+}
