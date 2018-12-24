@@ -1,0 +1,131 @@
+.jumbotron{background-color: #FFFFFF!important;  padding-bottom: 0}
+
+.textColor{color: #434f53;}
+
+.container-fluid{
+    padding-left: 80px;
+    padding-right: 0px;
+}
+
+.top-buffer { margin-top:30px;
+              margin-bottom: 50px;
+             }
+
+.parallax {
+    
+    background-image: url(https://template63450.motopreview.com/mt-demo/63400/63450/mt-content/uploads/2017/04/mt-0946-content-bg03.jpg);
+    min-height: 800px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+
+
+hr { 
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 1px;
+    background-color:white;
+       
+  } 
+
+.card-body{
+    
+    box-align: center;
+    text-align: center;
+    margin-inline-start: 200px;
+    margin-left: 350px;
+    margin-right:350px;
+    /* box-shadow:0px 50px 150px rgba(0,0,0,.1); */
+    position:absolute;
+    width:600px;
+    min-height:500px;
+    background-color: #FFFFFF;
+    padding-top: 20px;
+    padding-right: 80px;
+    padding-bottom: 100px;
+    padding-left: 80px;
+    height: 680px;
+}
+
+cardInside-body{
+
+    box-align: center;
+    text-align: center;
+    margin-bottom: 0px;
+    -webkit-margin-bottom-collapse: 0px;
+    position:absolute;
+    padding-bottom: 5px;
+    background-color:grey;
+    height: 400px;
+    padding-left: 30px;
+    padding-right: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+mat-card{
+    padding-left: 10px;
+}
+matInside-card{
+    padding-left: 20px;
+    padding-right: 0px;
+    width: 250px;
+    text-align: inherit;
+    height: 700px;
+    
+   }
+mat-button-toggle-group{
+    width:460;
+    height: 60;
+    
+}
+mat-button-toggle {
+    border: 1px solid purple;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right:5px;
+    width: 50px;
+    height: 50px;
+    font-family: 'Nunito Semibold', sans-serif;
+    font-size: 18px;
+    font-style: bold;
+    box-sizing: inherit;
+    justify-content: center;
+    
+    
+    padding-top: 0px ;
+    text-align: center;
+    
+    display: inline-block;
+    font-size: 16px;
+   
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    
+   
+  }
+  .button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid purple;
+    opacity: 1;
+  }
+  .button1:hover {
+    background-color: purple;
+    color: white;
+    opacity: 1;
+  }
+  
+  
+ mat-card{
+    font-family: 'Nunito Semibold', sans-serif;
+    font-size: 18px;
+    font-style: bold; 
+    justify-content: center;
+    padding-left: 60px
+ } 

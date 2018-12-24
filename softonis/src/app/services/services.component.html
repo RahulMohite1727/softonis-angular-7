@@ -1,3 +1,159 @@
-<p>
-  services works!
-</p>
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1  style="text-align:center;" class="textColor">Creative Multipurpose Software Template</h1>
+          <p class="text-center text-muted ">Connect with your clients in a different way</p>
+        </div>
+      </div>
+        </div>
+  </div>
+  
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1  style="text-align:center;" class="textColor">All our Services</h1>
+          <p class="text-center text-muted ">Partnership or temporary organization perfectly designed.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="container-fluid" >
+  <div class="row" data-container="container">
+    <div class="col-sm-12 col-xs-12 col-md-4 col-lg-4 col-xl-4">
+     <app-card   [ttl]= "'Answering Services'"  [msg]="'We provide the best software for your customer support to reply your clients fast and with no efforts'" [imgUrl]="'https://template63450.motopreview.com/mt-demo/63400/63450/mt-content/uploads/2017/04/mt-0946-home-icons01.png'"></app-card>
+    </div>
+   
+    <div class="col-sm-12 col-xs-12 col-md-4 col-lg-4 col-xl-4">
+      <app-card   [ttl]= "'Call Center Solutions'"  [msg]="'Thanks to our soft, your call center will succeed in getting new clients and creating a friendly atmosphere of communication.'" [imgUrl]="'https://template63450.motopreview.com/mt-demo/63400/63450/mt-content/uploads/2017/04/mt-0946-home-icons02.png'"></app-card>
+     </div>
+  
+     <div class="col-sm-12 col-xs-12 col-md-4 col-lg-4 col-xl-4">
+      <app-card   [ttl]= "'Upload Data'"  [msg]="'Special software for uploading data developed by our team has no analogues in the entire IT community all over the world.'" [imgUrl]="'https://template63450.motopreview.com/mt-demo/63400/63450/mt-content/uploads/2017/04/mt-0946-home-icons03.png'"></app-card>
+     </div>
+  
+  </div>
+  
+  <div class="row" class="row top-buffer" data-container="container">
+    <div class="col-sm-12 col-xs-12 col-md-4 col-lg-4 col-xl-4">
+     <app-card   [ttl]= "'Best Quality'"  [msg]="'Any soft developed with our help will serve you till the end of the world. See for yourself and test it free of charge.'" [imgUrl]="'https://template63450.motopreview.com/mt-demo/63400/63450/mt-content/uploads/2017/04/mt-0946-services-icon01.png'"></app-card>
+    </div>
+   
+    <div class="col-sm-12 col-xs-12 col-md-4 col-lg-4 col-xl-4">
+      <app-card   [ttl]= "'Analytics Tools'"  [msg]="'We analyze the resuts of each project to improve the experience in development software.'" [imgUrl]="'https://template63450.motopreview.com/mt-demo/63400/63450/mt-content/uploads/2017/04/mt-0946-services-icon02.png'"></app-card>
+     </div>
+  
+     <div class="col-sm-12 col-xs-12 col-md-4 col-lg-4 col-xl-4">
+      <app-card   [ttl]= "'In-Time Results'"  [msg]="'We are the most punctual people in the whole IT world. Doing business with our software company means being professional.'" [imgUrl]="'https://template63450.motopreview.com/mt-demo/63400/63450/mt-content/uploads/2017/04/mt-0946-services-icon03.png'"></app-card>
+     </div>
+  </div>
+  </div>
+  
+  
+  <div class="parallax"style="height:1000px;background-color:red;font-size:36px">
+  
+    <div class="row" class= "text-center" style="margin-top: 100px" >
+      <p style="color:white;font-size:50px; padding-top: 120px; " >Our Pricing</p>
+      <hr>
+    </div>
+      
+    <div class="card-center" style="margin-top:50px">
+      <div class="card-body" style="border: none">
+        <mat-button-toggle-group style="justify-content: center" >
+          <mat-button-toggle class="button1" (click)="myCheck(1)" ng-style="myStyle" ng-click="myStyle={color:'purple'}">01</mat-button-toggle>
+          <mat-button-toggle class="button1"(click)="myCheck(2)"ng-style="myStyle" ng-click="myStyle={color:'purple'}">02</mat-button-toggle>
+          <mat-button-toggle class="button1" (click)="myCheck(3)"ng-style="myStyle" ng-click="myStyle={color:'purple'}">03</mat-button-toggle>
+        </mat-button-toggle-group>  
+        <br/> 
+        <div class="row" class="mat-card"  >
+          <mat-card *ngIf="check1"class="matInside-card"  >
+            <div class="row"class="cardInside-body"style="background-color:rgb(235, 227, 227)" >
+              <h1 class="card-title"  >Starter</h1>
+              <h6 class="card-subtitle mb-2 text-muted"style="background-color:rgb(235, 227, 227)">Perfect for individuals businesses of all size</h6>
+            </div>
+            <div class="row" class="cardInside-body" style="background-color:rgb(235, 227, 227)">
+              <br/>
+              <h1 class="card-title"style="textColor: purple">$4.99</h1>
+              <br/>
+              <h6 class="card-subtitle mb-2 text-muted">CRM Auto-Sync</h6>
+              <br/>
+              <h6 class="card-subtitle mb-2 text-muted">Click-To-Call Back From The Web</h6>
+              <br/>
+              <h6 class="card-subtitle mb-2 text-muted">Track Accrued Energy Costs</h6>
+              <br/>
+              <h6 class="card-subtitle mb-2 text-muted">Power And Predictive Dialing</h6>
+              <br/>
+              <h6 class="card-subtitle mb-2 text-muted">Speech & Text Analytics</h6>
+              <br/>
+              <h6 class="card-subtitle mb-2 text-muted">Sales Acceleration Platform</h6>
+              <br/>
+              <button type="button" class="btn btn-primary">CONTACT US</button>
+              <div class="row"><br/></div>
+            </div>
+          </mat-card>
+  
+          <mat-card *ngIf="check2"class="matInside-card"  >
+            <div class="row"class="cardInside-body"style="background-color:rgb(235, 227, 227)" >
+              <h1 class="card-title"  >Standard</h1>
+              <h6 class="card-subtitle mb-2 text-muted"style="background-color:rgb(235, 227, 227)">Perfect for individuals businesses of all size</h6>
+            </div>
+            <div class="row" class="cardInside-body" style="background-color:rgb(235, 227, 227)">
+              <br/>
+              <h1 class="card-title"style="textColor: purple">$5.99</h1>
+              <br/>
+              <h6 class="card-subtitle mb-2 text-muted">CRM Auto-Sync</h6>
+              <br/>
+              <h6 class="card-subtitle mb-2 text-muted">Click-To-Call Back From The Web</h6>
+              <br/>
+              <h6 class="card-subtitle mb-2 text-muted">Track Accrued Energy Costs</h6>
+              <br/>
+              <h6 class="card-subtitle mb-2 text-muted">Power And Predictive Dialing</h6>
+              <br/>
+              <h6 class="card-subtitle mb-2 text-muted">Speech & Text Analytics</h6>
+              <br/>
+              <h6 class="card-subtitle mb-2 text-muted">Sales Acceleration Platform</h6>
+              <br/>
+              <button type="button" class="btn btn-primary">CONTACT US</button>
+              <div class="row"><br/></div>
+            </div>
+          </mat-card>
+  
+          <mat-card *ngIf="check3"class="matInside-card"  >
+            <div class="row"class="cardInside-body"style="background-color:rgb(235, 227, 227)" >
+              <h1 class="card-title"  >Ultimate</h1>
+              <h6 class="card-subtitle mb-2 text-muted"style="background-color:rgb(235, 227, 227)">Perfect for individuals businesses of all size</h6>
+            </div>
+            <div class="row" class="cardInside-body" style="background-color:rgb(235, 227, 227)">
+              <br/>
+              <h1 class="card-title"style="textColor: purple">$9.99</h1>
+              <br/>
+              <h6 class="card-subtitle mb-2 text-muted">CRM Auto-Sync</h6>
+              <br/>
+              <h6 class="card-subtitle mb-2 text-muted">Click-To-Call Back From The Web</h6>
+              <br/>
+              <h6 class="card-subtitle mb-2 text-muted">Track Accrued Energy Costs</h6>
+              <br/>
+              <h6 class="card-subtitle mb-2 text-muted">Power And Predictive Dialing</h6>
+              <br/>
+              <h6 class="card-subtitle mb-2 text-muted">Speech & Text Analytics</h6>
+              <br/>
+              <h6 class="card-subtitle mb-2 text-muted">Sales Acceleration Platform</h6>
+              <br/>
+              <button type="button" class="btn btn-primary">CONTACT US</button>
+              <div class="row"><br/></div>
+            </div>
+          </mat-card>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  

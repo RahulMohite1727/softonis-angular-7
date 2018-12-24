@@ -1,0 +1,14 @@
+.card-img-top {
+    width: 10%;
+    height: 10vw;
+    align-self: center;
+    
+}
+.card{
+    border: none
+}
+
+.mb {
+    margin-bottom: 30px;
+    
+}
